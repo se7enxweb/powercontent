@@ -1,0 +1,28 @@
+{
+    "name": "se7enxweb/powercontent",
+    "description": "Power Content Provides for Publishing any type of content dynamically without needing to first visit content/edit view to input content durring creation (POST) Actions. Great for advanced developers!",
+    "type": "ezpublish-legacy-extension",
+    "keywords": [ "eZ Publish", "eZ Publish Legacy", "eZ Publish Platform", "object creation", "node", "creation", "extension", "powercontent", "power", "content" ],
+    "homepage": "https://github.com/se7enxweb/powercontent",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name" : "7x",
+            "homepage": "https://se7enx.com",
+            "email": "info@se7enx.com",
+            "role": "Developer"
+        },
+        {
+            "name" : "Kristof Coomans",
+            "role": "Author"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.0.0",
+        "se7enxweb/ezpublish-legacy-installer": "*"
+    },
+    "extra": {
+        "ezpublish-legacy-extension-name": "powercontent"
+    }
+}

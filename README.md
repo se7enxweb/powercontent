@@ -1,6 +1,9 @@
-Power Content extension
+# Power Content extension
+
+# Copyright
 
 Copyright (C) 2006-2007 SCK-CEN
+
 Written by Kristof Coomans ( kristof[dot]coomans[at]telenet[dot]be )
 
 This program is free software; you can redistribute it and/or
@@ -17,23 +20,20 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
- Features
-****************************
+# Features
 
 The Power content module allows one-click publishing or pre-filling of attributes, similar to the Object Creator extension (http://ez.no/community/contribs/hacks/object_creator). However, it uses content/edit for the final processing.
 
 This module has one big advantage: it can deal with any type of attribute, even new custom ones.
 
- Installation instructions
-****************************
+## Installation instructions
 
 1. Enable the extension (in site.ini.append or by using the admin interface)
 
 2. Add a policy for this module to the desired roles.
 
 
-How to use in your template ?
-****************************
+## How to use in your template ?
 
 The main idea is to add new attributes that are going to contain the values you want instead of the default ones on ez publish. This module associate these new fields with standard fields that exist when editing with the default edit template. Therefore, you have to understand how ez names these fields so you can add the values you want.
 
@@ -67,10 +67,7 @@ You have more optional parameters, see the examples for details
 - RedirectURIAfterPublish : the url to display after the publication of the node.
 
 
-
-
- Examples code
-****************************
+# Examples code
 
 1) Example code for the "article" content class. This will prefill the title and intro of the article:
 <form method="post" action={"powercontent/action/"|ezurl}>
@@ -106,3 +103,6 @@ You have more optional parameters, see the examples for details
     <input class="button" type="submit" name="CreateButton" value="Create" />
     </div>
 </form>
+
+
+# Enjoy these stable features and take it eZ in all things throughout life!

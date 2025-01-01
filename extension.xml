@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<software>
+    <metadata>
+        <name>Power Content</name>
+        <version>2.0.0</version>
+        <copyright>Copyright (C) 1999 - 2024 7x and 2008 Kristof Coomans</copyright>
+        <license>GNU General Public License</license>
+        <info_url>https://github.com/se7enxweb/powercontent</info_url>
+    </metadata>
+</software>

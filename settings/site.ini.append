@@ -1,2 +1,5 @@
 [TemplateSettings]
 ExtensionAutoloadPath[]=powercontent
+
+[RegionalSettings]
+TranslationExtensions[]=powercontent

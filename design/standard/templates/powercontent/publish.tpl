@@ -30,7 +30,7 @@
 {/foreach}
 
 <div class="buttonblock">
-    <input class="button" type="submit" name="CreateButton" value="Create" />
+    <input class="button" type="submit" name="CreateButton" value="{'Create'|i18n( 'design/standard/powercontent/publish' )}" />
 </div>
 
 {if $useForm}

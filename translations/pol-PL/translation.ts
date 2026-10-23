@@ -32,7 +32,7 @@
     <name>design/standard/powercontent/publish</name>
     <message>
         <source>Create</source>
-        <translation>Utwórz</translation>
+        <translation>Utworzyć</translation>
     </message>
 </context>
 </TS>
